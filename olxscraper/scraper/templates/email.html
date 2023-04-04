@@ -1,0 +1,13 @@
+<html>
+    <body>
+        {% for item in data %}
+        <div style="margin-bottom: 40px">
+            <p><span style="font-weight: bold">Ad Olx ID:</span> {{ item.olx_id }}</p>
+            <p><span style="font-weight: bold">Title:</span> {{ item.title }}</p>
+            <p><span style="font-weight: bold">Price:</span> {{ item.price }}</p>
+            <p><span style="font-weight: bold">Advertiser name:</span> {{ item.advertiser_name }}</p>
+            <p><span style="font-weight: bold">Advertiser phone number:</span> {{ item.advertiser_phone_number }}</p>
+        </div>
+        {% endfor %}
+    </body>
+</html>
