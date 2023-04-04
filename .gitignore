@@ -1,0 +1,9 @@
+virtualenv/
+.python-version
+
+.env
+
+# Python compiled byte code
+__pycache__/
+.pytest_cache/
+*.pyc

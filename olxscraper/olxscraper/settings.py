@@ -83,7 +83,7 @@ WSGI_APPLICATION = "olxscraper.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "djongo",
-        "NAME": "scrap_olx_db",
+        "NAME": "<db-name>",
     }
 }
 
