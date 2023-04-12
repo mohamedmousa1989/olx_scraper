@@ -13,7 +13,7 @@ After installing Mongodb on your system, create a new db
 
 - Make sure you are have python 3.9 (run `python3 --version` to check)
 
-* `$ python3.9 venv virtualenv`
+* `$ python3.9 -m venv virtualenv`
 * `$ source virtualenv/bin/activate`
 * `$ cd olx_scraper`
 * `$ pip install -r requirements.txt`
